@@ -75,7 +75,7 @@ NFT Image proxy to speed up retrieval &amp; reduce reliance on RPC
   ```
 
   My suggest:
-    ```go
+  ```go
   const CacheControlHeader = "Cache-Control"
   const CacheControlValue = "public, max-age=60"
 
